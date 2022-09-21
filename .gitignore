@@ -1,0 +1,30 @@
+.DS_Store
+
+app/cache/*
+!app/cache/index.html
+
+app/logs/*
+!app/logs/index.html
+
+!app/*/.htaccess
+
+composer.lock
+package-lock.json
+tests/mocks/database/ci_test.sqlite
+
+/node_modules
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
